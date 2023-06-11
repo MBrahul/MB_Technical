@@ -1,0 +1,257 @@
+/* @import url("https://fonts.goosleapis.com/css22fanilv=Josefin+Sans:wsht@400:600:7005family" */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+:root {
+    --bs-dark-color: #1a1d20;
+    --bs-dark-primary: #1c1c1c;
+    --bs-main-color: #fff: 
+    --bs-primary-color:#c6c6c6;
+    --secondary-color: #29a9fd;
+    --bs-supporting-color: #C850C0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.color-white{
+    background-color: white !important;
+}
+
+.common-heading {
+    font-size: 2.5rem;
+    font-weight: 500;
+    letter-spacing: 0.01rem ! important;
+}
+
+.common-title {
+    margin-bottom: 4.2rem;
+}
+
+/* NAVBAR */
+.nav-link {
+    color: white !important;
+    font-weight: bold;
+}
+
+.nav-link:hover {
+    color: var(--secondary-color) !important;
+    font-weight: bold;
+}
+
+
+.bg-main {
+    height: 85vh;
+    position: relative;
+}
+
+.hero-video--section {
+    /* max-width: 100%; */
+    /* height: auto; */
+    width: 28rem;
+    border-radius: 2rem;
+}
+
+.hero-section .container {
+    display: grid;
+    place-content: center;
+    height: inherit;
+}
+
+.bg-color {
+    background-color: var(--bs-dark-primary);
+}
+
+/* shape divider  */
+.custom-shape-divider-bottom-1686397780 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1686397780 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 110px;
+}
+
+.custom-shape-divider-bottom-1686397780 .shape-fill {
+    fill: #FFFFFF;
+}
+
+
+/* services section  */
+
+.services-section {
+    padding: 6rem 0 3rem 0 !important;
+}
+
+.icon-span {
+    width: 2.5rem;
+    height: 2.5rem;
+    background-color: #1089ff;
+    color: white;
+}
+
+/* .card-box:hover{
+    border: 1px solid var(--bs-dark-color);
+} */
+
+/* showcase section  */
+
+.more-info-section {
+    background-image: linear-gradient(rgba(22, 22, 22, 0.9), rgba(22, 22, 22, 0.9)), url("https://i.pinimg.com/originals/2c/55/f9/2c55f9c9326e9232526557b63cd59638.gif");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding: 6rem 0;
+    overflow: hidden;
+}
+
+
+/* testimonial section  */
+.carousel .card{
+    background-color: #262631;
+    color: white;
+    transition: all 0.3s linear;
+}
+
+.carousel-inner .card:hover{
+    background-color: white;
+    color: var(--bs-dark-color);
+}
+
+.carousel {
+    padding-bottom: 60px;
+  }
+
+
+  /* contact section  */
+
+
+  .contact-section{
+    position: relative;
+    padding: 6rem;
+  }
+.custom-shape-divider-top-1686430043 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1686430043 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 150px;
+}
+
+.custom-shape-divider-top-1686430043 .shape-fill {
+    fill: #FFFFFF;
+}
+
+.form-section{
+    width:50%;
+}
+
+
+/* footer section  */
+
+.footer-section{
+    background-color: var(--bs-dark-primary);
+}
+
+.call-section{
+    width: 50%;
+}
+
+.call-section-items{
+    width: 100px;
+}
+
+.quick-link-section ul li{
+   transition: all 0.3s linear;
+}
+.quick-link-section ul li:hover{
+    color:var(--secondary-color);
+    cursor: pointer;
+}
+
+
+
+/* responsive code  */
+@media(max-width:991px){
+
+    .hero-section{
+        height: 100vh;
+    }
+
+    .hero-video--section{
+        width: 20rem;
+    }
+
+    .contact-section{
+        position: relative;
+        padding: 6rem 5px ;
+      }
+    .form-section{
+        width:90%;
+    }
+
+    .call-section{
+        width: 100%;
+    }
+
+
+}
+
+
+@media(max-width:700px){
+    h1{
+        font-size: 2rem;
+    }
+    .common-heading{
+        font-size: 2.4rem;
+    }
+    .common-title{
+        font-size: 2.4rem;
+    }
+}
+
+
+
+@media(max-width:550px){
+    .call-section-items{
+        width: 50px;
+    }
+
+    .call-details{
+        font-size: 13px;
+    }
+
+    .img-section figure img{
+        width: 15rem;
+}
+.common-heading{
+    font-size: 1.8rem;
+}
+.para-width{
+    font-size: 1rem;
+}
+}
+
